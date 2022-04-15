@@ -58,8 +58,8 @@ defmodule Explorer.ChainSpec.Parity.Importer do
       |> Enum.to_list()
 
     params = %{
-      address_coin_balances: %{params: balance_params},
-      address_coin_balances_daily: %{params: balance_daily_params},
+      # address_coin_balances: %{params: balance_params},
+      # address_coin_balances_daily: %{params: balance_daily_params},
       addresses: %{params: address_params}
     }
 
