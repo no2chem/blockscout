@@ -46,7 +46,7 @@ defmodule Explorer.SmartContract.Solidity.PublisherWorker do
 #
 #      {:error, _changeset} ->
 #        VerificationStatus.update_status(uid, :fail)
-    end
+#    end
   end
 
   def perform({"json_web", %{"address_hash" => address_hash} = params, json_input, conn}) do
